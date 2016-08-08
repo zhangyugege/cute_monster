@@ -1,28 +1,41 @@
 /**
- * Created by Administrator on 2015/6/7.
+ * Created by Administrator on 2015/3/12.
  */
 
 
 var res={
+   // Start_BG:"res/bg2.png",
+    Play_BG:"res/1.jpg",
+    Role:"res/role.png",
+    Fruit_0:"res/fruit.png",
+    Fruit_1:"res/fruit2.png",
+    Fruit_2:"res/nuion.png",
+    Fruit_3:"res/nuion.png",
+    Fruit_4:"res/fruit.png",
+    Fruit_5:"res/fruit2.png",
+    PRO:"res/pro.png",
+    BOMB:"res/bomb.png",
+    BLOOD:"res/blood.png"
+    //Bubble_0:"res/bubble_0.png",
+    //Bubble_1:"res/bubble_1.png",
+    //Bubble_2:"res/bubble_2.png",
+    //Bubble_3:"res/bubble_3.png",
+    //Bubble_4:"res/bubble_4.png",
+    //Bubble_5:"res/bubble_5.png",
+    //Bubble_6:"res/bubble_6.png",
+    //Bubble_7:"res/bubble_7.png",
+    //Start_Btn:"res/PLAY.png",
+    //Start_Btn2:"res/PLAY2.png",
+    //Shooter:"res/bubble_shooter.png",
+    //Sound_On:"res/sound-on.png",
+    //Sound_Off:"res/sound-off.png",
+    //Reset1:"res/replay_1.png",
+    //Reset2:"res/restart.png"
 
-
-    s_bg:"res/background.png",
-    s_bomb:"res/bomb.png",
-    s_bubble:"res/bubble.png",
-    s_hand_begin:"res/hand_begin.png",
-    s_hand_end:"res/hand_end.png",
-    s_logo:"res/logo.png",
-    s_progress:"res/progress.png",
-    s_gameover:"res/game_end.png",
-    s_nexttry:"res/next_try.png",
-    s_nexttry2:"res/next_try2.png",
-    s_nextlevel:"res/next_level.png",
-    s_nextlevel2:"res/next_level_selected.png",
-    s_gamewin:"res/goodjob.png",
-    s_preview:"res/preview.png"
 
 
 };
+//把所有的图片push到数组里一起加载
 var g_resources=[];
 for(var i in res){
     g_resources.push(res[i]);
